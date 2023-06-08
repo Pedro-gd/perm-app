@@ -1,7 +1,8 @@
 import { Component,OnInit } from '@angular/core';
 import { FormBuilder, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
-import { BaseForm } from 'src/app/shared/utils/base-form';
+import { BaseForm } from './../../../shared/utils/base-form';
+
 
 @Component({
   selector: 'app-login',
